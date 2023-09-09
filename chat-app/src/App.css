@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .App {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .app-header {
+    text-align: center;
+    background-color:#F43265;
+    color:#F7BAC5;
+    width: 100%;
+  }
+  
+  .app-container {
+    margin-top: 50px;
+  }
+  
+  .room {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .room label {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .room input {
+    width: 200px;
+    height: 30px;
+    border:2px solid #F43265;
+    border-radius: 6px;
+    padding-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+  }
+  .room button {
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background-color:#F43265;
+    color:#F7BAC5;
+    cursor: pointer;
+  }
+  
+  .sign-out button{
+    margin: 10px auto;
+    display: block;
+    background-color:#F43265;
+    color:#F7BAC5;
+    border:none;
+    box-shadow:2px 2px 2px #000;
+    padding:10px;
+  }
